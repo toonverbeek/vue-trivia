@@ -8,12 +8,6 @@
 
 <script>
 export default {
-  computed: {
-    score () {
-      const score = this.$store.getters.totalScore
-      return score
-    }
-  }
 }
 </script>
 
